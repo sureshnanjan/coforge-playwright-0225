@@ -1,0 +1,69 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250203114851
+Username: INCOFORGETECH\Arun.11.Kumar
+RunAs User: INCOFORGETECH\Arun.11.Kumar
+Configuration Name: 
+Machine: LP-RKT-0X121044 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 16256
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is arunTranscript.txt
+PS C:\Arun\PlaywrightProject> git --version
+
+PS C:\Arun\PlaywrightProject> git clone https://github.com/sureshnanjan/coforge-playwright-0225.git
+
+PS C:\Arun\PlaywrightProject> git status
+
+PS C:\Arun\PlaywrightProject> dir
+
+
+    Directory: C:\Arun\PlaywrightProject
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        03-02-2025     11:50                coforge-p
+                                                  laywright
+                                                  -0225
+-a----        03-02-2025     11:49            735 arunTrans
+                                                  cript.txt
+
+
+PS C:\Arun\PlaywrightProject> cd .\coforge-playwright-0225\
+PS C:\Arun\PlaywrightProject\coforge-playwright-0225> git status
+
+PS C:\Arun\PlaywrightProject\coforge-playwright-0225> Move-Item ..\arunTranscript.txt .
+Move-Item : The process cannot access the file because it is being used by another process.
+At line:1 char:1
++ Move-Item ..\arunTranscript.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Arun\Playwri...nTranscript.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : The process cannot access the file because it
+is being used by another process.
+At line:1 char:1
++ Move-Item ..\arunTranscript.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Arun\Playwri
+   ...nTranscript.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Micr
+   osoft.PowerShell.Commands.MoveItemCommand
+
+PS C:\Arun\PlaywrightProject\coforge-playwright-0225> git checkout -b arunkumar-branch
+
+PS C:\Arun\PlaywrightProject\coforge-playwright-0225> git status
+
+PS C:\Arun\PlaywrightProject\coforge-playwright-0225> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250203115307
+**********************
