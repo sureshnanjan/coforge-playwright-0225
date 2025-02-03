@@ -1,0 +1,310 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250203105421
+Username: INCOFORGETECH\Rama.Singhal
+RunAs User: INCOFORGETECH\Rama.Singhal
+Configuration Name: 
+Machine: LP-TZD-1X108143 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 23776
+PSVersion: 5.1.19041.5247
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5247
+BuildVersion: 10.0.19041.5247
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ramasinghal.txt
+PS C:\Users\rama.singhal>    New-Item -Path C:\GitHub  -Name ‘QA-Training’ -ItemType Directory
+
+
+    Directory: C:\GitHub
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        03-02-2025     10:55                QA-Training
+
+
+PS C:\Users\rama.singhal> Set-Location C:\GitHub\QA-training
+PS C:\GitHub\QA-training>   git --version  
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:3
++   git --version
++   ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:3
++   git --version
++   ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training> git--version
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training> 4.2.    Invoke-WebRequest  https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe -OutFile git-installer.exe
+At line:1 char:15
++ 4.2.    Invoke-WebRequest  https://github.com/git-for-windows/git/rel ...
++               ~~~~~~~~~~~
+Unexpected token '-WebRequest' in expression or statement.
+
+At line:1 char:28
++ ... WebRequest  https://github.com/git-for-windows/git/releases/download/ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unexpected token 'https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe' in expression or statement.
+At line:1 char:15
++ 4.2.    Invoke-WebRequest  https://github.com/git-for-windows/git/rel ...
++               ~~~~~~~~~~~
+Unexpected token '-WebRequest' in expression or statement.
+
+At line:1 char:28
++ ... WebRequest  https://github.com/git-for-windows/git/releases/download/ ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unexpected token 'https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\GitHub\QA-training>  Invoke-WebRequest  https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe -OutFile git-installer.exe
+PS C:\GitHub\QA-training>   .\git-installer.exe /VERYSILENT /NORESTART 
+
+
+PS C:\GitHub\QA-training>  git –-version 
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2
++  git –-version
++  ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2
++  git –-version
++  ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training> git--version
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training>  git clone https://github.com/sureshnanjan/coforge-playwright-0225.git
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2
++  git clone https://github.com/sureshnanjan/coforge-playwright-0225.gi ...
++  ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:2
++  git clone https://github.com/sureshnanjan/coforge-playwright-0225.gi ...
++  ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training> git clone https://github.com/git/git
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git clone https://github.com/git/git
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git clone https://github.com/git/git
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training> git--version
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training> .\git-installer
+PS C:\GitHub\QA-training> git--version
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training>    Invoke-WebRequest - https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe -OutFile git-installer.exe 
+>> TerminatingError(Invoke-WebRequest): "A positional parameter cannot be found that accepts argument 'https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe'."
+Invoke-WebRequest : A positional parameter cannot be found that accepts argument 
+'https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe'.
+At line:1 char:4
++    Invoke-WebRequest - https://github.com/git-for-windows/git/release ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Invoke-WebRequest], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+Invoke-WebRequest : A positional parameter cannot be found that accepts argument 'https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe'.
+At line:1 char:4
++    Invoke-WebRequest - https://github.com/git-for-windows/git/release ...
++    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Invoke-WebRequest], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+
+PS C:\GitHub\QA-training>  Invoke-WebRequest - https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe
+>> TerminatingError(Invoke-WebRequest): "A positional parameter cannot be found that accepts argument 'https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe'."
+Invoke-WebRequest : A positional parameter cannot be found that accepts argument 
+'https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe'.
+At line:1 char:2
++  Invoke-WebRequest - https://github.com/git-for-windows/git/releases/ ...
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Invoke-WebRequest], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+Invoke-WebRequest : A positional parameter cannot be found that accepts argument 'https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe'.
+At line:1 char:2
++  Invoke-WebRequest - https://github.com/git-for-windows/git/releases/ ...
++  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Invoke-WebRequest], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+
+PS C:\GitHub\QA-training>    .\git-installer.exe /VERYSILENT /NORESTART 
+PS C:\GitHub\QA-training> .\git-installer.exe /VERYSILENT /NORESTART
+PS C:\GitHub\QA-training> git--version
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training> git--version
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training> C:\Users\rama.singhal\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Git
+C:\Users\rama.singhal\AppData\Roaming\Microsoft\Windows\Start : The term 
+'C:\Users\rama.singhal\AppData\Roaming\Microsoft\Windows\Start' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:1
++ C:\Users\rama.singhal\AppData\Roaming\Microsoft\Windows\Start Menu\Pr ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\rama.s...t\Windows\Start:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+C:\Users\rama.singhal\AppData\Roaming\Microsoft\Windows\Start : The term 'C:\Users\rama.singhal\AppData\Roaming\Microsoft\Windows\Start' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ C:\Users\rama.singhal\AppData\Roaming\Microsoft\Windows\Start Menu\Pr ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\rama.s...t\Windows\Start:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training> git--version
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git--version : The term 'git--version' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git--version
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (git--version:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training> git --version
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git --version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ git --version
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training> Stop transcipt
+Stop : The term 'Stop' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Stop transcipt
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (Stop:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Stop : The term 'Stop' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Stop transcipt
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (Stop:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\GitHub\QA-training> Stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250203115135
+**********************
