@@ -1,0 +1,124 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20250203150151
+Username: INCOFORGETECH\Namdev
+RunAs User: INCOFORGETECH\Namdev
+Configuration Name: 
+Machine: LP-PUN-0X128874 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 19844
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\namdev\PlayRightTraning\Namdev.txt
+PS C:\Users\namdev> New-Item -Path .\Users\namdev -Name ‘QA-Training’ -ItemType Directory
+
+
+    Directory: C:\Users\namdev\Users\namdev
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        03-02-2025     15:04                QA-Training
+
+
+PS C:\Users\namdev> 3.2. Set-Location \Users\namdev\QA-Training
+At line:1 char:9
++ 3.2. Set-Location \Users\namdev\QA-Training
++         ~~~~~~~~~
+Unexpected token '-Location' in expression or statement.
+
+At line:1 char:19
++ 3.2. Set-Location \Users\namdev\QA-Training
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+Unexpected token '\Users\namdev\QA-Training' in expression or statement.
+At line:1 char:9
++ 3.2. Set-Location \Users\namdev\QA-Training
++         ~~~~~~~~~
+Unexpected token '-Location' in expression or statement.
+
+At line:1 char:19
++ 3.2. Set-Location \Users\namdev\QA-Training
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+Unexpected token '\Users\namdev\QA-Training' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\Users\namdev> Set-Location \Users\namdev\QA-Training
+Set-Location : Cannot find path 'C:\Users\namdev\QA-Training' because it does not exist.
+At line:1 char:1
++ Set-Location \Users\namdev\QA-Training
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\namdev\QA-Training:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+Set-Location : Cannot find path 'C:\Users\namdev\QA-Training' because it does not exist.
+At line:1 char:1
++ Set-Location \Users\namdev\QA-Training
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\namdev\QA-Training:String) [Set-Location], ItemNotFoundExcepti
+   on
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\namdev> New-Item -Path -Name ‘QA-Training’ -ItemType Directory
+>> TerminatingError(New-Item): "Missing an argument for parameter 'Path'. Specify a parameter of type 'System.String[]' and try again."
+New-Item : Missing an argument for parameter 'Path'. Specify a parameter of type 'System.String[]' and try again.
+At line:1 char:10
++ New-Item -Path -Name ‘QA-Training’ -ItemType Directory
++          ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : Missing an argument for parameter 'Path'. Specify a parameter of type 'System.String[]' and try again.
+At line:1 char:10
++ New-Item -Path -Name ‘QA-Training’ -ItemType Directory
++          ~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-Item], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\namdev> New-Item -Path .\ -Name ‘QA-Training’ -ItemType Directory
+
+
+    Directory: C:\Users\namdev
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        03-02-2025     15:07                QA-Training
+
+
+PS C:\Users\namdev> Set-Location \Users\namdev\QA-Training
+PS C:\Users\namdev\QA-Training> git clone https://github.com/sureshnanjan/coforge-playwright-0225.git
+
+PS C:\Users\namdev\QA-Training> Set-Location coforge-playwright-0225
+PS C:\Users\namdev\QA-Training\coforge-playwright-0225> git checkout Namdev-branch
+
+PS C:\Users\namdev\QA-Training\coforge-playwright-0225> git status
+
+PS C:\Users\namdev\QA-Training\coforge-playwright-0225> stopt-transcript
+stopt-transcript : The term 'stopt-transcript' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At line:1 char:1
++ stopt-transcript
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (stopt-transcript:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+stopt-transcript : The term 'stopt-transcript' is not recognized as the name of a cmdlet, function, script file, or
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:1
++ stopt-transcript
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (stopt-transcript:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\namdev\QA-Training\coforge-playwright-0225> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250203151348
+**********************
