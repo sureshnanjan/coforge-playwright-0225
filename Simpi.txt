@@ -1,0 +1,55 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250203140016
+Username: INCOFORGETECH\Simpi.Kumari
+RunAs User: INCOFORGETECH\Simpi.Kumari
+Configuration Name: 
+Machine: LP-TZD-2X110010 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12888
+PSVersion: 5.1.19041.5369
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5369
+BuildVersion: 10.0.19041.5369
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Simpi.txt
+PS C:\Users\simpi.kumari> New-Item -Path D:\ -Name ‘QA-Training’ -ItemType Directory
+
+
+    Directory: D:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          2/3/2025   2:01 PM                QA-Training
+
+
+PS C:\Users\simpi.kumari> cd D:\QA-Training
+PS D:\QA-Training> git clone https://github.com/sureshnanjan/coforge-playwright-0225.git
+Cloning into 'coforge-playwright-0225'...
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (29/29), done.
+remote: Total 30 (delta 7), reused 20 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (30/30), 10.37 KiB | 964.00 KiB/s, done.
+Resolving deltas: 100% (7/7), done.
+PS D:\QA-Training> cd .\coforge-playwright-0225\
+PS D:\QA-Training\coforge-playwright-0225> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS D:\QA-Training\coforge-playwright-0225> git checkout -b simpi-branch
+Switched to a new branch 'simpi-branch'
+PS D:\QA-Training\coforge-playwright-0225> git status
+On branch simpi-branch
+nothing to commit, working tree clean
+PS D:\QA-Training\coforge-playwright-0225> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250203140511
+**********************
