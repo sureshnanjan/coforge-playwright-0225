@@ -1,0 +1,80 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250203120650
+Username: INCOFORGETECH\vipul.agarwal
+RunAs User: INCOFORGETECH\vipul.agarwal
+Configuration Name: 
+Machine: LP-TZD-0X110463 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 21936
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is vipulagarwal.txt
+PS C:\Users\Vipul.Agarwal> New-Item -Path D:\ -Name Playwright_Training -ItemType Directory
+
+
+    Directory: D:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        03-02-2025     12:07                Playwright_Training
+
+
+PS C:\Users\Vipul.Agarwal> cd D:\Playwright_Training
+PS D:\Playwright_Training> git clone https://github.com/sureshnanjan/coforge-playwright-0225.git
+Cloning into 'coforge-playwright-0225'...
+remote: Enumerating objects: 16, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 16 (delta 2), reused 11 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (16/16), 7.22 KiB | 7.22 MiB/s, done.
+Resolving deltas: 100% (2/2), done.
+PS D:\Playwright_Training> dir
+
+
+    Directory: D:\Playwright_Training
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        03-02-2025     12:09                coforge-playwright-0225
+
+
+PS D:\Playwright_Training> cd .\coforge-playwright-0225\
+PS D:\Playwright_Training\coforge-playwright-0225> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS D:\Playwright_Training\coforge-playwright-0225> git checkout -b vipulagarwal-branch
+Switched to a new branch 'vipulagarwal-branch'
+PS D:\Playwright_Training\coforge-playwright-0225> git status
+On branch vipulagarwal-branch
+nothing to commit, working tree clean
+PS D:\Playwright_Training\coforge-playwright-0225> Move-Item C:\Users\Vipul.Agarwal\vipulagarwal.txt .
+Move-Item : The process cannot access the file because it is being used by another process.
+At line:1 char:1
++ Move-Item C:\Users\Vipul.Agarwal\vipulagarwal.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Vipul.Agarwal\vipulagarwal.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+Move-Item : The process cannot access the file because it is being used by another process.
+At line:1 char:1
++ Move-Item C:\Users\Vipul.Agarwal\vipulagarwal.txt .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : WriteError: (C:\Users\Vipul.Agarwal\vipulagarwal.txt:FileInfo) [Move-Item], IOException
+    + FullyQualifiedErrorId : MoveFileInfoItemIOError,Microsoft.PowerShell.Commands.MoveItemCommand
+
+PS D:\Playwright_Training\coforge-playwright-0225> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250203121341
+**********************
