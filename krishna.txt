@@ -1,0 +1,64 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250203163257
+Username: INCOFORGETECH\Bunne.Krishna
+RunAs User: INCOFORGETECH\Bunne.Krishna
+Configuration Name: 
+Machine: LP-MUM-0X111897 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 12068
+PSVersion: 5.1.19041.5247
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5247
+BuildVersion: 10.0.19041.5247
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is krishna.txt
+PS C:\Users\bunne.krishna> git clone https://github.com/sureshnanjan/coforge-playwright-0225.git
+Cloning into 'coforge-playwright-0225'...
+remote: Enumerating objects: 36, done.
+remote: Counting objects: 100% (36/36), done.
+remote: Compressing objects: 100% (35/35), done.
+remote: Total 36 (delta 10), reused 23 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (36/36), 12.12 KiB | 3.03 MiB/s, done.
+Resolving deltas: 100% (10/10), done.
+PS C:\Users\bunne.krishna> cd .\coforge-playwright-0225\
+PS C:\Users\bunne.krishna\coforge-playwright-0225> dir
+
+
+    Directory: C:\Users\bunne.krishna\coforge-playwright-0225
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        03-02-2025     16:33           2177 .gitignore
+-a----        03-02-2025     16:33             78 README.md
+
+
+PS C:\Users\bunne.krishna\coforge-playwright-0225> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\bunne.krishna\coforge-playwright-0225> git checkout -b "krishna11897"
+Switched to a new branch 'krishna11897'
+PS C:\Users\bunne.krishna\coforge-playwright-0225> dir
+
+
+    Directory: C:\Users\bunne.krishna\coforge-playwright-0225
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        03-02-2025     16:33           2177 .gitignore
+-a----        03-02-2025     16:33             78 README.md
+
+
+PS C:\Users\bunne.krishna\coforge-playwright-0225> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250203163510
+**********************
