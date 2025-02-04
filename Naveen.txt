@@ -1,0 +1,46 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250203163233
+Username: INCOFORGETECH\Nallapareddy.Kumar
+RunAs User: INCOFORGETECH\Nallapareddy.Kumar
+Configuration Name: 
+Machine: LP-HYD-0X128889 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 23836
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Naveen.txt
+PS C:\Users\Nallapareddy.Kumar> New-Item -Path suresh-trainer -Name 'QA-Training' -ItemType Directory
+
+
+    Directory: C:\Users\Nallapareddy.Kumar\suresh-trainer
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        03-02-2025     16:33                QA-Training
+
+
+PS C:\Users\Nallapareddy.Kumar> Set-Location  C:\Users\Admin\suresh-trainer\QA-Training
+Set-Location : Cannot find path 'C:\Users\Admin\suresh-trainer\QA-Training' because it does not exist.
+At line:1 char:1
++ Set-Location  C:\Users\Admin\suresh-trainer\QA-Training
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...ner\QA-Training:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+Set-Location : Cannot find path 'C:\Users\Admin\suresh-trainer\QA-Training' because it does not exist.
+At line:1 char:1
++ Set-Location  C:\Users\Admin\suresh-trainer\QA-Training
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Admin\...ner\QA-Training:String) [Set-Location], ItemNotFoundE
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
