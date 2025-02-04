@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/sureshnanjan/coforge-playwright-0225#readme",
   "dependencies": {
-    "coforge-playwright-0225": "file:"
+    "coforge-playwright-0225": "file:",
+    "tsc": "^2.0.4",
+    "typescript": "^5.7.3"
   }
 }
