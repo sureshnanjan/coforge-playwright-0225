@@ -1,0 +1,48 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250204140604
+Username: INCOFORGETECH\vipul.agarwal
+RunAs User: INCOFORGETECH\vipul.agarwal
+Configuration Name: 
+Machine: LP-TZD-0X110463 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 19804
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is vipulTest.txt
+PS C:\Users\Vipul.Agarwal> New-Item -Path C:\Users\Vipul.Agarwal -Name ‘Playwright_Training’ -ItemType Directory
+
+
+    Directory: C:\Users\Vipul.Agarwal
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04-02-2025     14:06                Playwright_Training
+
+
+PS C:\Users\Vipul.Agarwal> cd .\Playwright_Training\
+PS C:\Users\Vipul.Agarwal\Playwright_Training> git clone https://github.com/sureshnanjan/coforge-playwright-0225.git
+Cloning into 'coforge-playwright-0225'...
+remote: Enumerating objects: 62, done.
+remote: Counting objects: 100% (62/62), done.
+remote: Compressing objects: 100% (55/55), done.
+remote: Total 62 (delta 20), reused 42 (delta 5), pack-reused 0 (from 0)
+Receiving objects: 100% (62/62), 17.85 KiB | 1.12 MiB/s, done.
+Resolving deltas: 100% (20/20), done.
+PS C:\Users\Vipul.Agarwal\Playwright_Training> git status
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Vipul.Agarwal\Playwright_Training> git
+
+PS C:\Users\Vipul.Agarwal\Playwright_Training> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250204141149
+**********************
