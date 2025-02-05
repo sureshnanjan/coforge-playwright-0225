@@ -15,15 +15,41 @@ fa
 // Date End:
 // Participants:
 // Trainer Name:
-
 let a = null // null undefined
 let age = 40; // number
 let score = 10.01; // number
+score = true;
+//if (score > 100 ){}
 let myname = "suresh" // string
 let singlename = 'a';
 console.log(typeof myname);
 console.log(typeof singlename)
-let employee = {name: 'suresh', occupation: 'training'}
+
+let daoj = Date.parse('12102025')
+let dol = Date.parse('13102025')
+//document.get
+
+let employee = {name: randaomname, occupation: 'training', manager: {name:}}
+let suresh = {name: 'suresh', occupation: 'training'}
+const pi = getRandonString(), percent = 10.2
+var variable = "value"
+let tempmyname = `This is ${suresh.name}`
+
+// comparison 
+// number to number
+// string to string
+//Date 
+// Arithmetic
+// + - *
+
+// Naming Rules for variable s
+// A variable name must start with a letter, underscore (_), or dollar sign ($)
+// Names can contain letters, digits, underscores, and dollar signs
+let var2 = "test"
+// Variables are case sensitive
+let var1 = ""
+let Var1 = '' 
+
 console.log(typeof age);
 let participants = ['suresh', 'test']
 let onoff = false;
