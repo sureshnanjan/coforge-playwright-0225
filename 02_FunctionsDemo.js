@@ -1,11 +1,19 @@
 let value = ""
 // Behaviour 
-
+/**
+ * it is used for new joiner wel come greet
+ * Method name will start with small letter
+ */
 function Greet(){
 
     console.log("Welcome to Automation")
 }
-
+/**
+ * 
+ * @param {*} first 
+ * @param {*} second 
+ * @returns 
+ */
 function add2(first, second){
 
     return first + second
@@ -14,6 +22,8 @@ function add2(first, second){
 Greet();
 console.log(add2(10,20));
 //add2(10,20)
+
+
 
 (function(f,s) {
     console.log(`Execution with ${f} ${s}`);
@@ -26,7 +36,10 @@ let myfunc = (function(f,s) {
 });
 
 "su:re:sh".split()
-
+/**
+ * 
+ * @returns 
+ */
 let myoperation = () => console.log("This is my execution"); // Arrow function Lambda
 
 myoperation();
