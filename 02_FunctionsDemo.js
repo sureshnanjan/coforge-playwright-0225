@@ -1,11 +1,25 @@
 let value = ""
 // Behaviour 
+/**
+ * This is a greet function which support function coding
+ */
 
 function Greet(){
 
     console.log("Welcome to Automation")
 }
 
+Greet()
+
+
+"".replace()
+
+/**
+ * 
+ * @param {*} first 
+ * @param {*} second 
+ * @returns 
+ */
 function add2(first, second){
 
     return first + second
