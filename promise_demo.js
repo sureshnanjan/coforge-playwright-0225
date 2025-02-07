@@ -13,8 +13,8 @@ function FetchNew(){
 
 function PromiseHandler(success, failure){
     setTimeout(() => {
-        //success("Data fetched from server");
-        failure("Server Not reachable");
+        success("Data fetched from server");
+        //failure("Server Not reachable");
     }, 2000);
 }
 
