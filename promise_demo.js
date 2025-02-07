@@ -13,6 +13,7 @@ function FetchNew(){
 
 function PromiseHandler(success, failure){
     setTimeout(() => {
+<<<<<<< HEAD
         if (true) {
             success("Data fetched from server");
         } else {
@@ -20,6 +21,10 @@ function PromiseHandler(success, failure){
         }
         //
         
+=======
+        success("Data fetched from server");
+        //failure("Server Not reachable");
+>>>>>>> b7cc709 (Adding promises, chai and mocha.)
     }, 2000);
 }
 
