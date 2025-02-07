@@ -11,7 +11,7 @@ function add(a,b){
 }
 
 
-//setTimeout(()=>{},1000).
+
 
 function TakesCallback(fnref){
     console.log("Doing some prepeartory tasks")
