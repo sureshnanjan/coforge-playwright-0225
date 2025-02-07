@@ -1,9 +1,14 @@
 function fetchData() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve("Data fetched from server");
+            //resolve("Data fetched from server");
+            reject("SErver Not Reachable");
         }, 2000);
     });
+}
+
+async function name(params) {
+    const data = await fetchData();
 }
 
 async function handleData() {
