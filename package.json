@@ -26,5 +26,10 @@
     "mocha": "^11.1.0",
     "tsc": "^2.0.4",
     "typescript": "^5.7.3"
+  },
+  
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1"
   }
 }
