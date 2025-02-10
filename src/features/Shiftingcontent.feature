@@ -1,7 +1,7 @@
 Feature: Heroku App Shifting content page
 Scenario: Shifting content link and functionality works
     Given: The Heroku Home page is accessed
-    When: I clicked on check boxes link
+    When: I clicked on Shifting Content link
     Then: Shifting content page should be opened and title should match "Shifting Content"
     
     Given: I clicked on Menu Element link and landed on Menu Item page
