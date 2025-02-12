@@ -26,8 +26,8 @@
     "tsc": "^2.0.4",
     "typescript": "^5.7.3"
   },
-  
   "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.1"
   }
